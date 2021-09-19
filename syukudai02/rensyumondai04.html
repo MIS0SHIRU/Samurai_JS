@@ -1,0 +1,26 @@
+<body>
+    <script>
+        //【４．貯金金額の計算2】
+        //毎日500円ずつ貯金した時、目標金額になるのが何日目かを計算して、
+        //コンソールログに表示しましょう。
+        //目標金額は、prompt()を使って入力できるようにしてください。
+
+        let chokin = 0;
+        let command;
+        let days = 0;
+        
+        command = prompt('目標金額は？');
+
+        while(true){
+            console.log('あ');
+        chokin = chokin + days + 500;
+        days = days + 1;
+
+        if(chokin >= Number(command)){
+        break;
+        }
+        console.log('い');
+        }
+        console.log(days + '日目です');
+
+    </script>

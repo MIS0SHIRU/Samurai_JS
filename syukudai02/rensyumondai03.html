@@ -1,0 +1,47 @@
+<body>
+    <script>
+        //【３．健康診断チェック】
+        //性別と赤血球数の値を変数で設定し、コンソールログにメッセージを表示しましょう。
+        //基準値の範囲内の場合は、「結果は正常です。」
+        //基準値の範囲外の場合は、「再検査してください。」を表示します。
+
+        //基準値は以下の通りです。
+        //男性: 418以上、560以下
+        //女性: 384以上、504以下
+
+        const seibetsu = '男性';
+        const sekkekkyuu = 450;
+
+        if( seibetsu === '男性'){
+            console.log('男性');
+        if( sekkekkyuu >= 418){
+            if( sekkekkyuu <= 560 ){
+                console.log('結果は正常です');
+            }else{
+                console.log('再検査してください');
+            }
+        }
+
+        }
+        if( seibetsu === '女性'){
+            console.log('女性');
+        }
+        
+        
+        const a = 350;
+        const b = 500;
+
+        if( a == 350 ){
+            if( b < 200){
+                console.log('結果は正常です')
+            }else if( b <= 300){
+                console.log('あ')
+            }else if( b <= 450){
+                console.log('い')
+            }
+        }
+
+
+    </script>
+</body>
+
